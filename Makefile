@@ -30,7 +30,7 @@ APP_DIR := $(ROOT_DIR)/app
 EXE_DIR := $(ROOT_DIR)/run
 CONFIG_DIR := $(ROOT_DIR)/configs
 LIBS_DIR := $(ROOT_DIR)/dependencies
-LIBS :=
+LIBS := -L/opt/apps/fftw/3.3.10/lib/ -lfftw3
 INCS :=
 
 DEFINES :=

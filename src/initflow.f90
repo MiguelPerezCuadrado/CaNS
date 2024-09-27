@@ -44,7 +44,7 @@ module mod_initflow
     is_noise = .false.
     is_mean  = .false.
     is_pair  = .false.
-    uref  = 1.
+    uref  = 5.
     ubulk = uref
     if(is_forced(1)) ubulk = velf(1)
     select case(trim(inivel))
